@@ -35,7 +35,8 @@ public class RegisterActivity extends BaseActivity {
             String password = et_registerPassword.getText().toString();
             registerViewModel.register(identifier, password);
         });
-    }
+    }+
+
 
     @Override
     protected ViewModel initViewModel() {
