@@ -60,9 +60,9 @@ public abstract class BaseConversation {
     public int getDefaultAvatar() {
         switch (conversationType) {
             case C2C:
-                return R.drawable.avatar_friend;
+                return R.drawable.new_friend;
             case Group:
-                return R.drawable.avatar_group;
+                return R.drawable.new_group;
             case System:
                 return R.drawable.avatar_system;
             default:

@@ -44,7 +44,7 @@ public class GroupProfile extends BaseProfile {
 
     @Override
     public int getDefaultAvatarResource() {
-        return R.drawable.avatar_group;
+        return R.drawable.new_group;
     }
 
     @Override

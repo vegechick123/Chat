@@ -38,7 +38,7 @@ public class FriendProfile extends BaseProfile {
 
     @Override
     public int getDefaultAvatarResource() {
-        return R.drawable.avatar_friend;
+        return R.drawable.new_friend;
     }
 
     @Override

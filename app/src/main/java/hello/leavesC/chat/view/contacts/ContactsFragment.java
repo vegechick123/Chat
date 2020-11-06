@@ -60,9 +60,9 @@ public class ContactsFragment extends BaseFragment {
             itemDecoration.setLeftMargin(64);
             itemDecoration.setRightMargin(24);
             rv_friendList.addItemDecoration(itemDecoration);
-            LetterIndexView liv_letters = view.findViewById(R.id.liv_letters);
-            TextView tv_hint = view.findViewById(R.id.tv_hint);
-            liv_letters.bindIndexView(tv_hint, linearLayoutManager, getLetterMap(friendProfileList));
+//            LetterIndexView liv_letters = view.findViewById(R.id.liv_letters);
+//            TextView tv_hint = view.findViewById(R.id.tv_hint);
+//            liv_letters.bindIndexView(tv_hint, linearLayoutManager, getLetterMap(friendProfileList));
             FriendCache.getInstance().observe(this, this::handle);
         }
         return view;
@@ -74,22 +74,22 @@ public class ContactsFragment extends BaseFragment {
         friendWrapAdapter.setData(friendProfileList);
     }
 
-    private Map<String, Integer> getLetterMap(List<FriendProfile> friendProfileList) {
-        Map<String, Integer> letterMap = new HashMap<>();
-        if (friendProfileList == null || friendProfileList.size() == 0) {
-            return letterMap;
-        }
-        String letter = friendProfileList.get(0).getNameHeaderLetter();
-        letterMap.put(letter, 0);
-        for (int i = 1; i < friendProfileList.size(); i++) {
-            if (friendProfileList.get(i).getNameHeaderLetter().equals(letter)) {
-                continue;
-            }
-            letter = friendProfileList.get(i).getNameHeaderLetter();
-            letterMap.put(letter, i);
-        }
-        return letterMap;
-    }
+//    private Map<String, Integer> getLetterMap(List<FriendProfile> friendProfileList) {
+//        Map<String, Integer> letterMap = new HashMap<>();
+//        if (friendProfileList == null || friendProfileList.size() == 0) {
+//            return letterMap;
+//        }
+//        String letter = friendProfileList.get(0).getNameHeaderLetter();
+//        letterMap.put(letter, 0);
+//        for (int i = 1; i < friendProfileList.size(); i++) {
+//            if (friendProfileList.get(i).getNameHeaderLetter().equals(letter)) {
+//                continue;
+//            }
+//            letter = friendProfileList.get(i).getNameHeaderLetter();
+//            letterMap.put(letter, i);
+//        }
+//        return letterMap;
+//    }
 
     @Override
     protected BaseViewModel initViewModel() {

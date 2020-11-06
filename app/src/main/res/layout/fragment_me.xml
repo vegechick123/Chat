@@ -38,7 +38,7 @@
                 android:layout_marginTop="7dp"
                 android:layout_marginEnd="15dp"
                 android:layout_marginBottom="7dp"
-                android:src="@drawable/avatar_me" />
+                android:src="@drawable/new_friend" />
 
             <View
                 android:layout_width="match_parent"
@@ -86,35 +86,12 @@
             android:visibility="gone"
             app:title="加好友选项" />
 
-        <hello.leavesC.common.common.OptionView
-            android:id="@+id/ov_reward"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ov_allowType"
-            app:title="赞赏支持" />
-
-        <hello.leavesC.common.common.OptionView
-            android:id="@+id/ov_joinQQ"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ov_reward"
-            app:substance="1990724437"
-            app:title="加我QQ" />
-
-        <hello.leavesC.common.common.OptionView
-            android:id="@+id/ov_about"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/ov_joinQQ"
-            app:showDivider="false"
-            app:title="关于" />
-
         <Button
             android:id="@+id/btn_logout"
             style="@style/redButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/ov_about"
+            android:layout_below="@+id/ov_signature"
             android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"

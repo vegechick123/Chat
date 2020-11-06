@@ -113,23 +113,15 @@ public class MeFragment extends BaseFragment {
         ov_allowType.setContent(profileModel.getAllow());
     }
 
-    @OnClick({R.id.ov_about, R.id.ov_nickname, R.id.ov_signature, R.id.ov_joinQQ})
+    @OnClick({R.id.ov_nickname, R.id.ov_signature})
     void onClick(View view) {
         switch (view.getId()) {
-            case R.id.ov_about: {
-                startActivity(AboutActivity.class);
-                break;
-            }
             case R.id.ov_nickname: {
                 ModifyInfoActivity.navigation(getContext(), ModifyInfoActivity.REQUEST_ALTER_NICKNAME, ov_nickname.getContent());
                 break;
             }
             case R.id.ov_signature: {
                 ModifyInfoActivity.navigation(getContext(), ModifyInfoActivity.REQUEST_ALTER_SIGNATURE, ov_signature.getContent());
-                break;
-            }
-            case R.id.ov_joinQQ: {
-                joinQQ();
                 break;
             }
         }
@@ -157,20 +149,7 @@ public class MeFragment extends BaseFragment {
                 })
                 .create().show();
     }
-
-    @OnClick(R.id.ov_reward)
-    void reward() {
-        ClipboardManager clipboardManager = (ClipboardManager) getActivity().getSystemService(Context.CLIPBOARD_SERVICE);
-        if (clipboardManager != null) {
-            ClipData clip = ClipData.newPlainText("Hello", "#吱口令#长按复制此条消息，打开支付宝给我转账cN9ccz98uq");
-            clipboardManager.setPrimaryClip(clip);
-            try {
-                startActivity(getActivity().getPackageManager().getLaunchIntentForPackage("com.eg.android.AlipayGphone"));
-            } catch (Exception e) {
-                showToast("启动支付宝失败 " + e.getMessage());
-            }
-        }
-    }
+    
 
     @OnClick(R.id.ov_gender)
     void gender() {

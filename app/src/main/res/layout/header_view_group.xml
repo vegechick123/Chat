@@ -12,7 +12,7 @@
         android:layout_marginTop="7dp"
         android:layout_marginRight="13dp"
         android:layout_marginBottom="7dp"
-        android:src="@drawable/avatar_group" />
+        android:src="@drawable/new_group" />
 
     <TextView
         android:id="@+id/tv_header_groupName"

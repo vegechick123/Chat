@@ -44,6 +44,7 @@ import hello.leavesC.presenter.viewModel.base.BaseViewModel;
  */
 public class ConversationFragment extends BaseFragment {
 
+    /* // */
     private List<BaseConversation> conversationList;
 
     private ConversationAdapter conversationAdapter;

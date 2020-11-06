@@ -24,7 +24,7 @@
                 android:layout_height="80dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/avatar_friend" />
+                android:src="@drawable/new_friend" />
 
             <LinearLayout
                 android:id="@+id/ll_friendProfile_name_gender"

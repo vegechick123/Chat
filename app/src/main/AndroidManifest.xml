@@ -84,9 +84,6 @@
             android:name=".view.group.GroupMemberProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".view.me.AboutActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".view.me.AppIntroductionActivity"
             android:screenOrientation="portrait" />
         <activity
