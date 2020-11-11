@@ -3,8 +3,7 @@ package hello.leavesC.chat.business;
 import android.app.ActivityManager;
 import android.app.Application;
 import android.content.Context;
-
-import com.squareup.leakcanary.LeakCanary;
+import android.util.Log;
 import com.tencent.imsdk.TIMLogLevel;
 import com.tencent.imsdk.TIMManager;
 import com.tencent.imsdk.TIMSdkConfig;
@@ -34,10 +33,10 @@ public class InitBusiness {
     }
 
     private static void initLeakCanary(Application application) {
-        if (LeakCanary.isInAnalyzerProcess(application)) {
+        /*if (LeakCanary.isInAnalyzerProcess(application)) {
             return;
         }
-        LeakCanary.install(application);
+        LeakCanary.install(application);*/
     }
 
     private static boolean isMainProcess(Context context) {

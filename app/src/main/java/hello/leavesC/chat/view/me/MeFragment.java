@@ -149,7 +149,7 @@ public class MeFragment extends BaseFragment {
                 })
                 .create().show();
     }
-    
+
 
     @OnClick(R.id.ov_gender)
     void gender() {
