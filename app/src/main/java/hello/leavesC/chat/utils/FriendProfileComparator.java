@@ -4,11 +4,7 @@ import java.util.Comparator;
 
 import hello.leavesC.chat.model.FriendProfile;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:55
- * 说明：好友列表按称呼排序
- */
+
 public class FriendProfileComparator implements Comparator<FriendProfile> {
 
     @Override

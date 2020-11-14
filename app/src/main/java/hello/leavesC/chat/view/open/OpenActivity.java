@@ -18,11 +18,7 @@ import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.presenter.event.SplashActionEvent;
 import hello.leavesC.presenter.viewModel.SplashViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:17
- * 说明：开屏界面
- */
+
 public class OpenActivity extends BaseActivity {
 
     private LinearLayout ll_loginRegister;

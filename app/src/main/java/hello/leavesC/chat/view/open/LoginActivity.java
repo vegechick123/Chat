@@ -15,11 +15,7 @@ import hello.leavesC.chat.view.MainActivity;
 import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.presenter.viewModel.LoginViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:16
- * 说明：登录界面
- */
+
 public class LoginActivity extends BaseActivity {
 
     public static final String IDENTIFIER = "identifier";

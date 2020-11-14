@@ -27,14 +27,7 @@ import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 import hello.leavesC.sdk.Constants;
 import tencent.tls.platform.TLSLoginHelper;
 
-/**
- * 作者：leavesC
- * 时间：2017/11/29 21:18
- * 描述：主界面
- * GitHub：https://github.com/leavesC
- * Blog：https://www.jianshu.com/u/9df45b87cfdf
- * QQ：1990724437
- */
+
 public class MainActivity extends BaseActivity {
 
     private List<Fragment> tabFragments;

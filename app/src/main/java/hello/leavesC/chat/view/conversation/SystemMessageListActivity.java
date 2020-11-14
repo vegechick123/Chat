@@ -26,11 +26,7 @@ import hello.leavesC.presenter.event.ChatActionEvent;
 import hello.leavesC.presenter.viewModel.ChatViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/27 21:06
- * 说明：全局系统消息界面
- */
+
 public class SystemMessageListActivity extends BaseActivity {
 
     private SystemMessageAdapter systemMessageAdapter;

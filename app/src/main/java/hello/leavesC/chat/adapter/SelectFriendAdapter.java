@@ -10,11 +10,7 @@ import hello.leavesC.chat.R;
 import hello.leavesC.chat.model.FriendProfile;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/7 20:44
- * 说明：创建群组时用于选择好友的Adapter
- */
+
 public class SelectFriendAdapter extends FriendAdapter {
 
     public SelectFriendAdapter(Context context, List<FriendProfile> dataList) {

@@ -15,11 +15,7 @@ import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.presenter.viewModel.ModifyFriendProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:12
- * 说明：修改好友备注
- */
+
 public class AlterFriendRemarkActivity extends BaseActivity {
 
     private static final String IDENTIFIER = "identifier";

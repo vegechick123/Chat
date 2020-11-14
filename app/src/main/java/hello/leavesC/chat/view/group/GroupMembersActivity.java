@@ -19,11 +19,7 @@ import hello.leavesC.common.recycler.common.CommonItemDecoration;
 import hello.leavesC.presenter.viewModel.GroupProfileViewModel;
 import hello.leavesC.presenter.model.GroupMemberInfo;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/22 21:59
- * 说明：群组成员列表界面
- */
+
 public class GroupMembersActivity extends BaseActivity {
 
     private static final String GROUP_ID = "groupId";

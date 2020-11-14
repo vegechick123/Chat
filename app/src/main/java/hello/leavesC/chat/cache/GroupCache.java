@@ -16,12 +16,7 @@ import hello.leavesC.presenter.event.RefreshActionEvent;
 import hello.leavesC.presenter.liveData.GroupEventLiveData;
 import hello.leavesC.presenter.liveData.RefreshEventLiveData;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:54
- * 说明：群组数据缓存，公开群，私有群，聊天室
- * 每当群组链发生变化时，缓存数据均会相应改变
- */
+
 public class GroupCache extends LiveData<Map<String, List<GroupProfile>>> {
 
     private Map<String, List<GroupProfile>> groupMap;

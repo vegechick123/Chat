@@ -10,11 +10,7 @@ import java.util.List;
 
 import hello.leavesC.chat.utils.MessageFactory;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/27 19:59
- * 说明：消息消息会话
- */
+
 public class SystemConversation extends BaseConversation {
 
     private static final String TAG = "SystemConversation";

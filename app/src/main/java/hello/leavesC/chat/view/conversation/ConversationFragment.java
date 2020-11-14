@@ -37,11 +37,7 @@ import hello.leavesC.presenter.model.ConversationModel;
 import hello.leavesC.presenter.viewModel.ConversationViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:14
- * 说明：会话列表界面
- */
+
 public class ConversationFragment extends BaseFragment {
 
     /* // */

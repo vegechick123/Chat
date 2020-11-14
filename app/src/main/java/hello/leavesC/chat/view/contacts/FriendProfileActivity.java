@@ -31,11 +31,7 @@ import hello.leavesC.common.common.OptionView;
 import hello.leavesC.presenter.viewModel.ModifyFriendProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:14
- * 说明：好友资料详情页
- */
+
 public class FriendProfileActivity extends BaseActivity {
 
     private static final String IDENTIFIER = "identifier";

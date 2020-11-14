@@ -10,11 +10,7 @@ import hello.leavesC.chat.model.SystemProfileTipsMessage;
 import hello.leavesC.chat.model.SystemSnsMessage;
 import hello.leavesC.chat.model.TextMessage;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:58
- * 说明：
- */
+
 public class MessageFactory {
 
     private static final String TAG = "MessageFactory";

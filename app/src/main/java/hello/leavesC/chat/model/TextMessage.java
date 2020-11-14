@@ -10,11 +10,7 @@ import com.tencent.imsdk.ext.message.TIMMessageDraft;
 
 import java.nio.charset.Charset;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:53
- * 说明：文本消息
- */
+
 public class TextMessage extends BaseMessage {
 
     public TextMessage(TIMMessage message) {

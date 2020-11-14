@@ -12,11 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/14 20:12
- * 说明：会话内的群组系统消息
- */
+
 public class GroupTipsMessage extends BaseMessage {
 
     public GroupTipsMessage(TIMMessage message) {

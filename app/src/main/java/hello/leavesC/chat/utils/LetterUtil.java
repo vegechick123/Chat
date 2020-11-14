@@ -7,11 +7,7 @@ import net.sourceforge.pinyin4j.format.HanyuPinyinToneType;
 import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination;
 
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:56
- * 说明：汉字转拼音
- */
+
 public class LetterUtil {
 
     /**

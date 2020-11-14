@@ -26,11 +26,7 @@ import hello.leavesC.presenter.utils.TransformUtil;
 import hello.leavesC.presenter.viewModel.GroupProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/13 22:37
- * 说明：群组资料界面
- */
+
 public class GroupProfileActivity extends BaseActivity {
 
     private static final String TAG = "GroupProfileActivity";

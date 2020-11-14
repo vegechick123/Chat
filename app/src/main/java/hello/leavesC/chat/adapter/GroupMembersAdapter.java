@@ -12,11 +12,7 @@ import hello.leavesC.presenter.model.GroupMemberInfo;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewAdapter;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/22 22:05
- * 说明：群组成员Adapter
- */
+
 public class GroupMembersAdapter extends CommonRecyclerViewAdapter<GroupMemberInfo> {
 
     public GroupMembersAdapter(Context context, List<GroupMemberInfo> dataList) {

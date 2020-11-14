@@ -16,11 +16,7 @@ import hello.leavesC.presenter.event.SearchUserActionEvent;
 import hello.leavesC.presenter.viewModel.SearchUserViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:03
- * 说明：搜索用户界面
- */
+
 public class SearchUserActivity extends BaseActivity {
 
     private SearchView sv_searchUser;

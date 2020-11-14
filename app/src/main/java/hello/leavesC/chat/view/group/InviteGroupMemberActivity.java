@@ -24,11 +24,7 @@ import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 import hello.leavesC.presenter.viewModel.GroupProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/2/3 11:14
- * 说明：
- */
+
 public class InviteGroupMemberActivity extends BaseActivity {
 
     private List<FriendProfile> friendProfileList;

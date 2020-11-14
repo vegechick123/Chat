@@ -9,11 +9,7 @@ import hello.leavesC.chat.cache.FriendCache;
 import hello.leavesC.chat.cache.GroupCache;
 import hello.leavesC.chat.utils.SpannableStringUtil;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/27 20:08
- * 说明：全局的群组系统消息
- */
+
 public class SystemGroupMessage extends BaseMessage {
 
     public SystemGroupMessage(TIMMessage message) {

@@ -20,11 +20,7 @@ import hello.leavesC.presenter.event.SearchUserActionEvent;
 import hello.leavesC.presenter.viewModel.SearchUserViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:05
- * 说明：搜索用户结果
- */
+
 public class SearchUserResultActivity extends BaseActivity {
 
     private static final String IDENTIFIER = "identifier";

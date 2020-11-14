@@ -15,11 +15,7 @@ import java.util.List;
 import hello.leavesC.presenter.event.FriendActionEvent;
 import hello.leavesC.presenter.log.Logger;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/10/1 20:56
- * 描述：从内存中同步获取好友关系链资料
- */
+
 public class FriendEventLiveData extends LiveData<FriendActionEvent> {
 
     private static final String TAG = "FriendEventLiveData";

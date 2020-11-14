@@ -15,11 +15,7 @@ import hello.leavesC.chat.utils.TimeUtil;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewAdapter;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/27 21:12
- * 说明：系统消息Adapter
- */
+
 public class SystemMessageAdapter extends CommonRecyclerViewAdapter<BaseMessage> {
 
     public SystemMessageAdapter(Context context, List<BaseMessage> dataList) {

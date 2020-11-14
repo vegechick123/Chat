@@ -9,11 +9,7 @@ import hello.leavesC.chat.ChatApplication;
 import hello.leavesC.chat.cache.FriendCache;
 import hello.leavesC.chat.utils.SpannableStringUtil;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/2/1 20:01
- * 说明：
- */
+
 public class SystemProfileTipsMessage extends BaseMessage {
 
     private static final String TAG = "SystemProfileTipsMessage";

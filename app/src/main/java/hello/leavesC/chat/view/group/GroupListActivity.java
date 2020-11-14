@@ -20,11 +20,7 @@ import hello.leavesC.chat.view.chat.ChatActivity;
 import hello.leavesC.common.recycler.common.CommonItemDecoration;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/7 20:18
- * 说明：群组列表界面
- */
+
 public class GroupListActivity extends BaseActivity {
 
     private List<GroupProfile> groupProfileList;

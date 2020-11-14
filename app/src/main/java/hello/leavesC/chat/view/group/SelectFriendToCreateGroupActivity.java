@@ -23,11 +23,7 @@ import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 import hello.leavesC.presenter.viewModel.GroupProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/7 20:44
- * 说明：
- */
+
 public class SelectFriendToCreateGroupActivity extends BaseActivity {
 
     private List<FriendProfile> friendProfileList;

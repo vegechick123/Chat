@@ -4,11 +4,7 @@ import java.util.Comparator;
 
 import hello.leavesC.chat.model.BaseMessage;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/27 21:57
- * 说明：系统消息按时间排序
- */
+
 public class SystemMessageComparator implements Comparator<BaseMessage> {
 
     @Override

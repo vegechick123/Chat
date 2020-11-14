@@ -12,11 +12,7 @@ import hello.leavesC.chat.cache.FriendCache;
 import hello.leavesC.chat.cache.GroupCache;
 import hello.leavesC.chat.utils.MessageFactory;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:52
- * 说明：聊天会话
- */
+
 public class ChatConversation extends BaseConversation {
 
     private static final String TAG = "ChatConversation";

@@ -9,11 +9,7 @@ import android.widget.TextView;
 import hello.leavesC.chat.R;
 import hello.leavesC.chat.view.base.BaseActivity;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/21 21:25
- * 说明：应用简介界面
- */
+
 public class AppIntroductionActivity extends BaseActivity {
 
     private static final String TITLE = "title";

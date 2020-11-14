@@ -14,11 +14,7 @@ import hello.leavesC.chat.R;
 import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.common.common.OptionView;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/21 19:28
- * 说明：关于
- */
+
 public class AboutActivity extends BaseActivity {
 
     @Override

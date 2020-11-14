@@ -6,11 +6,7 @@ import com.tencent.imsdk.TIMUserProfile;
 import hello.leavesC.chat.R;
 import hello.leavesC.chat.utils.LetterUtil;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:52
- * 说明：好友资料
- */
+
 public class FriendProfile extends BaseProfile {
 
     private TIMUserProfile userProfile;

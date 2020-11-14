@@ -26,11 +26,7 @@ import hello.leavesC.common.recycler.common.CommonItemDecoration;
 import hello.leavesC.common.recycler.wrap.WrapRecyclerViewAdapter;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:12
- * 说明：好友列表界面
- */
+
 public class ContactsFragment extends BaseFragment {
 
     private List<FriendProfile> friendProfileList;

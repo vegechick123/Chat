@@ -7,11 +7,7 @@ import com.tencent.imsdk.TIMMessageStatus;
 
 import hello.leavesC.chat.cache.FriendCache;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:51
- * 说明：消息-基类
- */
+
 public abstract class BaseMessage {
 
     //消息体

@@ -5,11 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:56
- * 说明：时间格式转换
- */
+
 public class TimeUtil {
 
     public static final String FORMAT_YYYY_MM_DD_HH_MM = "yyyy-MM-dd HH:mm";

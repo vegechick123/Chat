@@ -9,11 +9,7 @@ import com.tencent.imsdk.ext.message.TIMConversationExt;
 
 import hello.leavesC.chat.R;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:51
- * 说明：会话-基类
- */
+
 public abstract class BaseConversation {
 
     //会话对象ID

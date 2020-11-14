@@ -12,11 +12,7 @@ import hello.leavesC.chat.cache.FriendCache;
 import hello.leavesC.chat.utils.SpannableStringUtil;
 import hello.leavesC.presenter.log.Logger;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/28 13:15
- * 说明：
- */
+
 public class SystemSnsMessage extends BaseMessage {
 
     private static final String TAG = "SnsSystemMessage";

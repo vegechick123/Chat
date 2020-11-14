@@ -17,11 +17,7 @@ import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.presenter.viewModel.GroupProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/14 10:45
- * 说明：修改群组资料的界面
- */
+
 public class GroupProfileModifyActivity extends BaseActivity {
 
     public static final int ALTER_GROUP_NAME = 1;

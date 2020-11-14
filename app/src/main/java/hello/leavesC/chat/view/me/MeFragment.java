@@ -33,11 +33,7 @@ import hello.leavesC.presenter.utils.TransformUtil;
 import hello.leavesC.presenter.viewModel.ModifySelfProfileViewModel;
 import hello.leavesC.presenter.viewModel.SelfProfileViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:15
- * 说明：个人信息界面
- */
+
 public class MeFragment extends BaseFragment {
 
     private View view;

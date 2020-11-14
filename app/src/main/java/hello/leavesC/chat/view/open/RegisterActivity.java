@@ -10,11 +10,7 @@ import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.presenter.model.ProfileModel;
 import hello.leavesC.presenter.viewModel.RegisterViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:17
- * 说明：注册页面
- */
+
 public class RegisterActivity extends BaseActivity {
 
     private RegisterViewModel registerViewModel;

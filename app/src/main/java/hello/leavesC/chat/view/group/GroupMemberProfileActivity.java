@@ -17,11 +17,7 @@ import hello.leavesC.presenter.viewModel.GroupProfileViewModel;
 import hello.leavesC.presenter.utils.TransformUtil;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/21 10:33
- * 说明：群组成员资料界面
- */
+
 public class GroupMemberProfileActivity extends BaseActivity {
 
     private static final String GROUP_ID = "groupId";

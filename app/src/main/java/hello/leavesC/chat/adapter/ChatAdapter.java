@@ -20,11 +20,7 @@ import hello.leavesC.common.input.utils.SpanStringUtils;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewAdapter;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/12/10 16:40
- * 说明：聊天消息Adapter
- */
+
 public class ChatAdapter extends CommonRecyclerViewAdapter<BaseMessage> {
 
     private static final String TAG = "ChatAdapter";

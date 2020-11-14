@@ -11,11 +11,7 @@ import com.tencent.imsdk.TIMSdkConfig;
 import hello.leavesC.chat.BuildConfig;
 import hello.leavesC.sdk.Constants;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/10/3 17:44
- * 描述：
- */
+
 public class InitBusiness {
 
     public static void init(Application application) {

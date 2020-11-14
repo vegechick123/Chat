@@ -2,11 +2,7 @@ package hello.leavesC.chat.model;
 
 import androidx.annotation.DrawableRes;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:52
- * 说明：资料-基类
- */
+
 abstract class BaseProfile {
 
     abstract public String getIdentifier();

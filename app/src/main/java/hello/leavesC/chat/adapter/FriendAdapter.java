@@ -12,11 +12,7 @@ import hello.leavesC.chat.model.FriendProfile;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewAdapter;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:12
- * 说明：好友列表Adapter
- */
+
 public class FriendAdapter extends CommonRecyclerViewAdapter<FriendProfile> {
 
     public FriendAdapter(Context context, List<FriendProfile> dataList) {

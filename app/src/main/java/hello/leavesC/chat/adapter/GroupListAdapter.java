@@ -11,11 +11,7 @@ import hello.leavesC.chat.model.GroupProfile;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewAdapter;
 import hello.leavesC.common.recycler.common.CommonRecyclerViewHolder;
 
-/**
- * 作者：叶应是叶
- * 时间：2018/1/7 20:19
- * 说明：群组列表Adapter
- */
+
 public class GroupListAdapter extends CommonRecyclerViewAdapter<GroupProfile> {
 
     public GroupListAdapter(Context context, List<GroupProfile> dataList) {

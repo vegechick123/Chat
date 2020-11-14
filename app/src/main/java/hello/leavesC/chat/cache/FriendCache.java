@@ -18,11 +18,7 @@ import hello.leavesC.presenter.event.RefreshActionEvent;
 import hello.leavesC.presenter.liveData.FriendEventLiveData;
 import hello.leavesC.presenter.liveData.RefreshEventLiveData;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:54
- * 说明：好友数据缓存，每当好友链发生变化时，缓存数据会相应改变
- */
+
 public class FriendCache extends LiveData<Map<String, FriendProfile>> {
 
     private static final String TAG = "FriendCache";

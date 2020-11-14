@@ -50,11 +50,7 @@ import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
 import static com.tencent.imsdk.TIMConversationType.C2C;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:08
- * 说明：聊天界面
- */
+
 public class ChatActivity extends BaseActivity implements EmojiFragment.OnEmoticonClickListener {
 
     //好友ID或群组ID

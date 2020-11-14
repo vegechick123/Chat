@@ -12,11 +12,7 @@ import com.tencent.imsdk.ext.group.TIMGroupDetailInfo;
 import hello.leavesC.chat.R;
 import hello.leavesC.chat.utils.MessageFactory;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 20:53
- * 说明：群组资料
- */
+
 public class GroupProfile extends BaseProfile {
 
     private TIMGroupDetailInfo groupDetailInfo;

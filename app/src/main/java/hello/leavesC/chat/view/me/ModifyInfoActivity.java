@@ -17,11 +17,7 @@ import hello.leavesC.chat.view.base.BaseActivity;
 import hello.leavesC.presenter.viewModel.ModifySelfProfileViewModel;
 import hello.leavesC.presenter.viewModel.base.BaseViewModel;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:15
- * 说明：修改个人资料界面
- */
+
 public class ModifyInfoActivity extends BaseActivity {
 
     public static final int REQUEST_ALTER_NICKNAME = 1;

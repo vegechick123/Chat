@@ -24,11 +24,7 @@ import hello.leavesC.common.dialog.MessageDialog;
 import hello.leavesC.presenter.event.base.BaseActionEvent;
 import hello.leavesC.presenter.viewModel.base.IViewModelAction;
 
-/**
- * 作者：叶应是叶
- * 时间：2017/11/29 21:04
- * 说明：基类Activity
- */
+
 @SuppressLint("Registered")
 public abstract class BaseActivity extends AppCompatActivity {
 
